@@ -19,11 +19,8 @@
 	<lable for="name" class="col-sm-2 control-lable">Name:</lable>
 		<div class="col-sm-7">			
 		 	<input type="text" class="form-control" id="name" 
-		 	placeholder="first and lastname" value="<?php echo htmlspecialchars($_POST['name']);?>"
-		 <?php 
-              $errName='please enter your name';
-		      echo "<p class='text-danger'>".$errName."</p>";
-		 ?>
+		 	placeholder="first and lastname" value="">
+		 
 	</div>
 </div>
 
@@ -31,11 +28,8 @@
 	<lable for="email" class="col-sm-2 control-lable">Email:</lable>
 		<div class="col-sm-7">								
 			<input type="text" class="form-control" id="email" 
-			placeholder="example@yahoo.com" value="<?php echo htmlspecialchars($_POST['email']);?>"
-		<?php 
-		$errEmail='please enter a valid email address';
-		echo "<p class='text-danger'>$errEmail</p>"; 
-		?>
+			placeholder="example@yahoo.com" value="">
+		
 	</div>
 </div>
 
@@ -43,7 +37,7 @@
 	<lable for="password" class="col-sm-2 control-lable">Password:</lable>
 		<div class="col-sm-7">
 			<input type="password" class="form-control" id="password" 
-			placeholder="enter your password" value="<?php echo htmlspecialchars($_POST['password'])?>"
+			placeholder="enter your password" value="">
 	</div>
 </div>
 
@@ -51,11 +45,8 @@
 	<lable for="repassword" class="col-sm-2 control-lable">Repassword:</lable>
 	<div class="col-sm-7">
 		<input type="repasword" class="form-control" id="repassword" 
-		placeholder="enter your password" value="<?php echo htmlspecialchars($_POST['email'])?>"
-		<?php 
-		$errPassword='password mismatch';
-		echo "<p class='text-danger'>$errPassword</p>";
-		 ?>
+		placeholder="enter your password" value="">
+		
 	</div>
 </div>
 

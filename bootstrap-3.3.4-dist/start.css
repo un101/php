@@ -1,0 +1,44 @@
+body{
+margin-top: 120px;
+ background: #F1F0D1;
+ font-family: arial,verdana,tahoma,times;
+ font-size:15px ;
+ overflow:auto ; 
+}
+#container-responsive{
+	margin-left: 500px;
+	font-size:15px ;
+}
+input{
+	border-color: red;
+	border-width: 10px;
+	margin-left: 80px;
+	width: 150px;
+	color: black;
+}
+h1{
+  text-align:center ;
+  color: teal;
+text-decoration: true;
+}	
+footer{
+ background: ;
+ overflow: hidden;
+ width: ; 
+}
+#wrapper-fluid{
+padding-left: 80px;
+padding-top: 50px;
+margin: auto;
+border-radius: 10px;
+border-color: ;
+box-shadow:0 0 20px black ;
+background: #B0CAE4;
+width:65%;
+font-family: arial,verdana,tahoma,times;
+font-size: 25px;
+max-width: 5000px;
+max-height:5000px: 
+
+}
+

@@ -16,36 +16,32 @@
 <form class="form-horizontal" role="form" action='start.php' method='POST'>
 
 <div class="form-group">
-	<lable for="name" class="col-sm-2 control-lable">Name:</lable>
+	<label for="name" class="col-sm-2 control-label">Name:</label>
 		<div class="col-sm-7">			
-		 	<input type="text" class="form-control" id="name" 
-		 	placeholder="first and lastname" value="">
+		 	<input type="text" class="form-control" id="name" placeholder="first and lastname" value="">
 		 
 	</div>
 </div>
 
 <div class="form-group">
-	<lable for="email" class="col-sm-2 control-lable">Email:</lable>
+	<label for="email" class="col-sm-2 control-label">Email:</label>
 		<div class="col-sm-7">								
-			<input type="text" class="form-control" id="email" 
-			placeholder="example@yahoo.com" value="">
+			<input type="text" class="form-control" id="email" placeholder="example@yahoo.com" value="">
 		
 	</div>
 </div>
 
 <div class="form-group">
-	<lable for="password" class="col-sm-2 control-lable">Password:</lable>
+	<label for="password" class="col-sm-2 control-label">Password:</label>
 		<div class="col-sm-7">
-			<input type="password" class="form-control" id="password" 
-			placeholder="enter your password" value="">
+			<input type="password" class="form-control" id="password" placeholder="enter your password" value="">
 	</div>
 </div>
 
 <div class="form-group">
-	<lable for="repassword" class="col-sm-2 control-lable">Repassword:</lable>
+	<label for="repassword" class="col-sm-2 control-label">Repassword:</label>
 	<div class="col-sm-7">
-		<input type="repasword" class="form-control" id="repassword" 
-		placeholder="enter your password" value="">
+		<input type="password" class="form-control" id="repassword" placeholder="enter your password" value="">
 		
 	</div>
 </div>

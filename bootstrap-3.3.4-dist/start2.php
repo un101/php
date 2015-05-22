@@ -18,7 +18,8 @@
 <div class="form-group">
 	<label for="name" class="col-sm-2 control-label">Name:</label>
 		<div class="col-sm-7">			
-		 	<input type="text" class="form-control" id="name" placeholder="first and lastname" value="">
+		 	<input type="text" class="form-control" id="name" placeholder="first and lastname" 
+		 		value="<?php if(isset($_POST['name'])){	echo $_POST['name']; }?>">
 		 
 	</div>
 </div>

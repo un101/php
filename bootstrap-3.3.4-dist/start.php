@@ -24,7 +24,7 @@
 		#check that the passwords match
 
 	} else {
-		echo 'Sorry Sir!';
+		header("location: start2.php");
 	}
 
 ?>

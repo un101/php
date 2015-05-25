@@ -24,7 +24,15 @@
 		<div class="col-sm-7">			
 		 	<input type="text" class="form-control" id="name" name="firstname" placeholder="first and lastname" 
 		 		value="<?php if(isset($_SESSION['name'])){echo $_SESSION['name'];}?>">
-		 		
+		 	<?php
+		 		if(isset($_SESSION['name']) && !empty($_SESSION['name'])){
+		 			#do nothing carry one ...
+		 		} else {
+		 			echo '<div class="alert alert-warning" role="alert">
+					 	 	Names must be filled.
+					 	</div>';
+		 		}
+		 	?>
 	</div>
 </div>
 
@@ -32,7 +40,16 @@
 	<label for="email" class="col-sm-2 control-label">Email:</label>
 		<div class="col-sm-7">								
 			<input type="text" class="form-control" name="email" placeholder="example@yahoo.com" value="<?php if(isset($_SESSION['email'])){echo $_SESSION['email'];}?>">
-	</div>
+			<?php
+		 		if(isset($_SESSION['email']) && !empty($_SESSION['email'])){
+		 			#do nothing carry one ...
+		 		} else {
+		 			echo '<div class="alert alert-warning" role="alert">
+					 	 	Email must be filled.
+					 	</div>';
+		 		}
+		 	?>
+		</div>
 </div>
 
 <div class="form-group">

@@ -23,7 +23,7 @@
 
 	} else {
 		echo 'Sorry Sir!';
-		print_r($_SESSION['name']);
+		#print_r($_SESSION['name']);
 	}
 
 ?>

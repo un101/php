@@ -1,4 +1,6 @@
 <?php
+	
+	session_start();
 
 	if(!empty($_POST['firstname'])){
 		$name = $_POST['firstname'];
@@ -23,7 +25,6 @@
 
 	} else {
 		echo 'Sorry Sir!';
-		print_r($_SESSION['name']);
 	}
 
 ?>

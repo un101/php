@@ -23,7 +23,7 @@
 	<label for="name" class="col-sm-2 control-label">Name:</label>
 		<div class="col-sm-7">			
 		 	<input type="text" class="form-control" id="name" name="firstname" placeholder="first and lastname" 
-		 		value="<?php echo $_SESSION['name'];?>">
+		 		value="<?php if(isset($_SESSION['name'])){echo $_SESSION['name'];}?>">
 		 		
 	</div>
 </div>
@@ -31,8 +31,7 @@
 <div class="form-group">
 	<label for="email" class="col-sm-2 control-label">Email:</label>
 		<div class="col-sm-7">								
-			<input type="text" class="form-control" name="email" placeholder="example@yahoo.com" value="<?php echo $_SESSION['email'];?>">
-		
+			<input type="text" class="form-control" name="email" placeholder="example@yahoo.com" value="<?php if(isset($_SESSION['email'])){echo $_SESSION['email'];}?>">
 	</div>
 </div>
 

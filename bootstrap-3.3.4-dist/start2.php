@@ -22,13 +22,6 @@
 <div class="form-group">
 	<label for="name" class="col-sm-2 control-label">Name:</label>
 		<div class="col-sm-7">			
-<<<<<<< HEAD
-		 	<input type="text" class="form-control" id="name" name="firstname" 
-		 	placeholder="first and lastname" 
-		 	value="<?php if (isset($_POST['name'])){echo htmlspecialchars($_POST['name']);} ?>">
-		 	
-		 		
-=======
 		 	<input type="text" class="form-control" id="name" name="firstname" placeholder="first and lastname" 
 		 		value="<?php if(isset($_SESSION['name'])){echo $_SESSION['name'];}?>">
 		 	<?php
@@ -40,20 +33,12 @@
 					 	</div>';
 		 		}
 		 	?>
->>>>>>> b57d4ad067b600d43678883ba55a254044b09fdf
 	</div>
 </div>
 
 <div class="form-group">
 	<label for="email" class="col-sm-2 control-label">Email:</label>
 		<div class="col-sm-7">								
-<<<<<<< HEAD
-			<input type="text" class="form-control" name="email" 
-			placeholder="example@yahoo.com"
-			 value="<?php if (isset($_POST['email'])){echo htmlspecialchars($_POST['email']);} ?>">
-		
-	</div>
-=======
 			<input type="text" class="form-control" name="email" placeholder="example@yahoo.com" value="<?php if(isset($_SESSION['email'])){echo $_SESSION['email'];}?>">
 			<?php
 		 		if(isset($_SESSION['email']) && !empty($_SESSION['email'])){
@@ -65,7 +50,6 @@
 		 		}
 		 	?>
 		</div>
->>>>>>> b57d4ad067b600d43678883ba55a254044b09fdf
 </div>
 
 <div class="form-group">

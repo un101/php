@@ -24,12 +24,8 @@
 		#check that the passwords match
 
 	} else {
-<<<<<<< HEAD
-		echo 'Sorry Sir!';
-		#print_r($_SESSION['name']);
-=======
 		header("location: start2.php");
->>>>>>> b57d4ad067b600d43678883ba55a254044b09fdf
+
 	}
 
 ?>
